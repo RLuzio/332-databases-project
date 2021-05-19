@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+        <title>College DB</title>
+</head>
+
+<body>
+        <h1>College DB</h1>
+
+        <h2>Professor</h2>
+        <div>
+                <form action = "query.php" method = "POST">
+                        <input placeholder = "Social Security Number" required type = "text" name = "social_security">
+                        <button type = "submit" name = "p1">Get Schedule</button>
+                </form>
+        </div>
+        <div>
+                <form aciton = "query.php" method = "POST">
+                        <input placeholder = "Course Number" required type = "text" name = "course_num">
+                        <input placeholder = "Section Number" required type = "text" name = "sect_num">
+                        <button type = "submit" name = "p2">Get Grades</button>
+                </form>
+        <div>
+
+        <h2>Student</h2>
+        <div>
+                <form action = "query.php" method = "POST">
+                        <input placeholder = "Course Number" required type = "texxt" name = "course_num">
+                        <button type = "submit" name = "stu1">Get Schedule</button>
+                </form>
+        </div>
+        <div>
+                <form action = "query.php" method = "POST">
+                        <input placeholder = "Campus ID" required type = "text" name = "cwid">
+                        <button type = "submit" name = "stu2">Get Grades</button>
+                </form>
+        </div>
+
+</body>
+
+</html>
